@@ -4,9 +4,15 @@
   "description": "An eccomerece website",
   "main": "index.js",
   "scripts": {
+    "serve:local": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ecommerce"],
+  "keywords": [
+    "ecommerce"
+  ],
   "author": "LoiTran",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
